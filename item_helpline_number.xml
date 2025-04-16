@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_page1">
+
+    <!-- Top Bar -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/safeguardback"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/logo1"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/textAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Safeguard"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <ImageView
+            android:id="@+id/buttonLogout"
+            android:layout_width="53dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ll2"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp">
+
+        <!-- First Helpline Icon -->
+        <ImageView
+            android:id="@+id/imageViewHelplineIcon"
+            android:layout_width="155dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/f2"
+            android:layout_centerHorizontal="true" />
+
+        <!-- Text for First Helpline -->
+        <TextView
+            android:id="@+id/textViewHelplineNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/imageViewHelplineIcon"
+            android:layout_centerHorizontal="true"
+            android:text="Police"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <!-- Second Helpline Icon -->
+        <ImageView
+            android:id="@+id/imageViewHelplineIcon1"
+            android:layout_width="155dp"
+            android:layout_height="142dp"
+            android:layout_below="@id/textViewHelplineNumber"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/amb"
+            android:layout_centerHorizontal="true" />
+
+        <!-- Text for Second Helpline -->
+        <TextView
+            android:id="@+id/textViewHelplineNumber1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:layout_below="@id/imageViewHelplineIcon1"
+            android:layout_centerHorizontal="true"
+            android:text="Ambulance"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <!-- Third Helpline Icon -->
+        <ImageView
+            android:id="@+id/imageViewHelplineIcon2"
+            android:layout_width="155dp"
+            android:layout_height="142dp"
+            android:layout_below="@id/textViewHelplineNumber1"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/f3"
+            android:layout_centerHorizontal="true" />
+
+        <!-- Text for Third Helpline -->
+        <TextView
+            android:id="@+id/textViewHelplineNumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/imageViewHelplineIcon2"
+            android:layout_centerHorizontal="true"
+            android:text="Fire"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
